@@ -1,4 +1,22 @@
-/* GLOBAL STYLES
+.main-content-title {
+  font-family: "Playfair Display", serif;
+}
+
+video {
+  object-fit: inherit;
+  width: auto;
+  content: icon;
+
+  /* @media (min-width: 62em) {
+    object-fit: initial;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  } */
+}
+
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -7,7 +25,6 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -27,7 +44,6 @@ body {
   height: 32rem;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -38,11 +54,10 @@ body {
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 /* rtl:end:ignore */
-
 
 /* Featurettes
 ------------------------- */
@@ -54,7 +69,7 @@ body {
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 /* rtl:end:remove */
