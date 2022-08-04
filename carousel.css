@@ -2,8 +2,8 @@
   font-family: "Playfair Display", serif;
 }
 video {
-  object-fit: inherit;
-  width: auto;
+  object-fit: cover;
+  /* width: auto; */
   min-width: 100%;
 }
 /* @media (min-width: 62em) {
@@ -59,8 +59,24 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   /* height: 32rem; */
-  height: 54rem;
+  height: 34rem;
 }
+
+@media (min-width: 62em) {
+  .carousel-item {
+    /* height: 32rem; */
+    height: 44rem;
+  }
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: inline-flex;
+}
+
+/* .active {
+  display: inline-flex;
+} */
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
