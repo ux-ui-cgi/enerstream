@@ -80,6 +80,12 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
+.color-enerstream-blue {
+  color: #143d8d;
+}
+.color-enerstream-green {
+  color: #49a942;
+}
 
 *,
 *::before,
