@@ -29,11 +29,16 @@ video {
   height: 100%;
   background: linear-gradient(
     45deg,
-    rgba(59, 135, 187, 1) 4%,
+    /* rgba(59, 135, 187, 1) 4%, */ rgba(20, 61, 143, 1) 10%,
     rgba(255, 255, 255, 0)
   );
 }
-
+.color-enerstream-blue {
+  color: hwb(220 8% 44%);
+}
+.color-enerstream-green {
+  color: #49a942;
+}
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
