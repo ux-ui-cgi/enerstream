@@ -3780,6 +3780,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  color: black;
 }
 
 .nav-link {
@@ -3791,6 +3792,7 @@ fieldset:disabled .btn {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
+  color: black;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -3867,6 +3869,7 @@ fieldset:disabled .btn {
 .nav-pills .show > .nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background-color: var(--bs-nav-pills-link-active-bg);
+  color: black;
 }
 
 .nav-fill > .nav-link,
@@ -3961,9 +3964,17 @@ fieldset:disabled .btn {
   margin-bottom: 0;
   list-style: none;
 }
+.navbar-nav,
+img {
+  height: 40px;
+  /* width: 120px;
+  padding-top: 6px; */
+}
+
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
   color: var(--bs-navbar-active-color);
+  color: ;
 }
 .navbar-nav .dropdown-menu {
   position: static;
