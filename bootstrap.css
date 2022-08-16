@@ -625,6 +625,17 @@ progress {
   margin-bottom: 0;
 }
 
+/* blockquote:before {
+  content: "“";
+  left: -5rem;
+  top: -2rem;
+}
+blockquote:after {
+  content: "”";
+  right: -5rem;
+  bottom: 1rem;
+} */
+
 .blockquote-footer {
   margin-top: -1rem;
   margin-bottom: 1rem;
