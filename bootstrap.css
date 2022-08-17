@@ -3975,8 +3975,7 @@ fieldset:disabled .btn {
   margin-bottom: 0;
   list-style: none;
 }
-.navbar-nav,
-img {
+.navbar-nav-logo {
   height: 40px;
   /* width: 120px;
   padding-top: 6px; */
