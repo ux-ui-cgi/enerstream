@@ -222,7 +222,7 @@ body {
   color: #fff;
   box-shadow: none;
 }
-
+/*
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -237,4 +237,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #355cc9;
-}
+} */

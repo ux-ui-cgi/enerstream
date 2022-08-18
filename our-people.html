@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="generator" content="Hugo 0.101.0" />
+    <title>Carousel Template · Bootstrap v5.2</title>
+
+    <!-- <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.2/examples/carousel/"
+    /> -->
+
+    <link href="bootstrap.css" rel="stylesheet" />
+
+    <script src="js/dist/carousel.js"></script>
+
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/playfair-display");
+
+      h1 {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+
+    <link href="carousel.css" rel="stylesheet" />
+
+    <link href="flip-cards.css" rel="stylesheet" />
+
+
+
+    <!-- Custom styles for this template -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="navbar-nav-logo" src="media/EnerStreamLogoWeb.svg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Company Background</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Our People </a></li>
+                  <li><a class="dropdown-item" href="#">Rockpoint info</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products & Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Portfolio Management Services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Strutured Pricing Products
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Free Energy assessment
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Testimonials
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#">Assocciations</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  The Market
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Market Fundemantals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Enerstream News </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Industry Links</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Energy Converter </a>
+                  </li>
+                </ul>
+
+                <!-- <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> -->
+              </li>
+            </ul>
+
+            <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container marketing">
+        <div class="row">
+          <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5">About Us</h1>
+            <div class="col-lg-10 mx-auto">
+
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <input
+                  type="checkbox"
+                  id="card1"
+                  class="more"
+                  aria-hidden="true"
+                />
+                <div class="content">
+                  <div
+                    class="front"
+                    style="
+                      background-image: url(media/shutterstock_251497315.jpg);
+                    "
+                  >
+                    <div class="inner">
+                      <h2>Our People</h2>
+                      <label for="card1" class="button" aria-hidden="true">
+                        LEARN MORE
+                      </label>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <div class="description">
+                        <h3>Our People</h3>
+                        <p>
+                          Our competitive wholesale pricing options allow you to
+                          price your supply in a manner that is consistent with
+                          your individual risk tolerance and budget objectives.
+                          With EnerStream, you can choose from full price
+                          certainty for a one-to-five-year term with our fixed
+                          price plan or opt for some market exposure via an
+                          index based and Market Tracker plans. All our programs
+                          are designed to let you mitigate your natural gas
+                          price risk appropriately and keep objectives in line
+                          with specific organizational policies.
+                        </p>
+                      </div>
+                      <label
+                        for="card1"
+                        class="button return"
+                        aria-hidden="true"
+                      >
+                        BACK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card">
+                <input
+                  type="checkbox"
+                  id="card2"
+                  class="more"
+                  aria-hidden="true"
+                />
+                <div class="content">
+                  <div
+                    class="front"
+                    style="
+                      background-image: url(media/shutterstock_371085188.jpg);
+                    "
+                  >
+                    <div class="inner">
+                      <h2>Our People</h2>
+                      <label for="card2" class="button" aria-hidden="true">
+                        LEARN MORE
+                      </label>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <div class="description">
+                        <h3>Our People</h3>
+                        <p>
+                          Our competitive wholesale pricing options allow you to
+                          price your supply in a manner that is consistent with
+                          your individual risk tolerance and budget objectives.
+                          With EnerStream, you can choose from full price
+                          certainty for a one-to-five-year term with our fixed
+                          price plan or opt for some market exposure via an
+                          index based and Market Tracker plans. All our programs
+                          are designed to let you mitigate your natural gas
+                          price risk appropriately and keep objectives in line
+                          with specific organizational policies.
+                        </p>
+                      </div>
+                      <label
+                        for="card2"
+                        class="button return"
+                        aria-hidden="true"
+                      >
+                        BACK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <input
+                  type="checkbox"
+                  id="card3"
+                  class="more"
+                  aria-hidden="true"
+                />
+                <div class="content">
+                  <div
+                    class="front"
+                    style="
+                      background-image: url(media/shutterstock_251497315.jpg);
+                    "
+                  >
+                    <div class="inner">
+                      <h2>Our People</h2>
+                      <label for="card3" class="button" aria-hidden="true">
+                        LEARN MORE
+                      </label>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <div class="description">
+                        <h3>Feel free to contact us</h3>
+                        <p>
+                          Our competitive wholesale pricing options allow you to
+                          price your supply in a manner that is consistent with
+                          your individual risk tolerance and budget objectives.
+                          With EnerStream, you can choose from full price
+                          certainty for a one-to-five-year term with our fixed
+                          price plan or opt for some market exposure via an
+                          index based and Market Tracker plans. All our programs
+                          are designed to let you mitigate your natural gas
+                          price risk appropriately and keep objectives in line
+                          with specific organizational policies.
+                        </p>
+                      </div>
+                      <label
+                        for="card3"
+                        class="button return"
+                        aria-hidden="true"
+                      >
+                        BACK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card">
+                <input
+                  type="checkbox"
+                  id="card4"
+                  class="more"
+                  aria-hidden="true"
+                />
+                <div class="content">
+                  <div
+                    class="front"
+                    style="
+                      background-image: url(media/shutterstock_371085188.jpg);
+                    "
+                  >
+                    <div class="inner">
+                      <h2>Our People</h2>
+                      <label for="card4" class="button" aria-hidden="true">
+                        LEARN MORE
+                      </label>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <div class="description">
+                        <h3>Our People</h3>
+                        <p>
+                          Our competitive wholesale pricing options allow you to
+                          price your supply in a manner that is consistent with
+                          your individual risk tolerance and budget objectives.
+                          With EnerStream, you can choose from full price
+                          certainty for a one-to-five-year term with our fixed
+                          price plan or opt for some market exposure via an
+                          index based and Market Tracker plans. All our programs
+                          are designed to let you mitigate your natural gas
+                          price risk appropriately and keep objectives in line
+                          with specific organizational policies.
+                        </p>
+                      </div>
+                      <label
+                        for="card4"
+                        class="button return"
+                        aria-hidden="true"
+                      >
+                        BACK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2017–2022 Company, Inc. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/dist/carousel.js"></script>
+  </body>
+</html>
