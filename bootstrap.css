@@ -198,6 +198,11 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.back-to-top {
+    padding-right: 15px;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -251,7 +256,7 @@ strong {
 
 small,
 .small {
-  font-size: 0.875em;
+  font-size: 0.775em;
 }
 
 mark,
