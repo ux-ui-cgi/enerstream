@@ -198,9 +198,8 @@ p {
   margin-bottom: 1rem;
 }
 
-
 .back-to-top {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 abbr[title] {
@@ -252,6 +251,9 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+}
+.strong {
+  font-weight: bolder !important;
 }
 
 small,
