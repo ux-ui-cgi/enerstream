@@ -7,8 +7,8 @@ setTimeout(async function () {
   window[scriptInjectedSentinel] = true;
 
   // dotnet-watch browser reload script
-  const webSocketUrls = 'wss://localhost:44332/EnerStreamWeb/,ws://localhost:59171/EnerStreamWeb/'.split(',');
-  const sharedSecret = await getSecret('MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy3lgmnuKmmHyftQYZw0truZ0zkjpF1/v78NvuRtYGi/7KHkDz1dB/lFKg6ffXPkG4u3mKW188nQrDtT9A5BEGi8hEDQ2F/7QSsGr2XeXHOSOHuM+wTnUSJAUxErh+dHQKHram7oR481Fy1sZuNLae9Lnfi9bF0KCJGEYdzxOT27DIinfOzPs0QWwkGk6BVZzpqzMLa4f5EOilW31yBxjTIjboEub94YQFjLB5q4KLeOwCS88/zaey6zWvlK7tLK5szcks3FGNwzVVikz1JhYvYS9Zdh5v4mtropsq9uxM7rvUOsUBH8cLV7uWRWUsoLYFk32AqXLDqoK+wYXeg1fFQIDAQAB');
+  const webSocketUrls = 'wss://localhost:44341/EnerStreamWeb/,ws://localhost:58991/EnerStreamWeb/'.split(',');
+  const sharedSecret = await getSecret('MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvOOKNWpao4vrNPZi2Xh5VLailKvPw5RaExu0aqjApMDKdtUnyIM1+y1tK8+cWsPfamRk79U8ghW5nmBIyPA1OTy1Y+z4WDG0G7kY3ZGIHy9HOr/9Y9ykxB9JEA7bcbt4MuWt8OEdkFcYc0RRBMo+4HDln754q07LZ3clR2ZtAoe79naMNOWnFolrcAt1tj3AUcsl3qPv6tiGzEfLxPPyLv/CMFqpI+Y4bz0Hq/pppsDVE5PKxPVFxKU9Zy2yKEbST9EW9had+i+WN/pWfVHzMWje4yGPX6vVVWVJTZC/mjjkhbb8fRs1OfHd3nqc6acVpHppBndiVvxFu9mpaxs1PQIDAQAB');
   let connection;
   for (const url of webSocketUrls) {
     try {
